@@ -2,9 +2,11 @@
 Template für Loadouts in Arma 3
 
 Bw
-  Flecktarn
-  Tropentarn
-  Multitarn
+
+Flecktarn
+Tropentarn
+Multitarn
+
 Mods
 - ACE: https://steamcommunity.com/workshop/filedetails/?id=463939057
 - ACRE: https://steamcommunity.com/workshop/filedetails/?id=751965892
