@@ -6,7 +6,7 @@ if (!local player) exitWith {};
 
 comment "Assigning ACE roles";
 
-player setVariable ["ACE_medical_medicClass", 0, true];
+player setVariable ["ACE_medical_medicClass", 1, true];
 player setVariable ["ACE_isEOD", false];
 
 comment "Remove existing items";
