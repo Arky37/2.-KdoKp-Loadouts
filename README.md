@@ -9,4 +9,3 @@ Mods
 - CBA: https://steamcommunity.com/workshop/filedetails/?id=450814997
 - KAT: https://steamcommunity.com/workshop/filedetails/?id=2020940806
 - BWMod: https://steamcommunity.com/workshop/filedetails/?id=1200127537
-- Camofaces: https://steamcommunity.com/workshop/filedetails/?id=346665985
