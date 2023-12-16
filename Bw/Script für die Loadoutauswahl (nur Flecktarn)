@@ -1,0 +1,86 @@
+_action = ["Bw_IdZ_F_menu","Bw IdZ Flecktarn","",{},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+[Armory, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+	_action = ["Bw_IdZ_F_leadership_menu","Führung","",{},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+	[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Fuehrer","Führer","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Fuehrer.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_leadership_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Kommandant","Kommandant","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Kommandant.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_leadership_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+	_action = ["Bw_IdZ_F_standard_menu","Standard","",{},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+	[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Bunkerfaustschuetze","Bunkerfaustschütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Bunkerfaustschuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;	
+
+		_action = ["Bw_IdZ_F_Fliegerfaustschuetze","Fliegerfaustschütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Fliegerfaustschuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;	
+
+		_action = ["Bw_IdZ_F_Grenadier","Grenadier","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Grenadier.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_MG3_Hilfsschuetze","MG3-Hilfsschütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_MG3_Hilfsschuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_MG3_Schuetze","MG3-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_MG3_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_MG4_Schuetze","MG4-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_MG4_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_MG5_Hilfsschuetze","MG5-Hilfsschütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_MG5_Hilfsschuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_MG5_Schuetze","MG5-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_MG5_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Panzerfaustschuetze","Panzerfaustschütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Panzerfaustschuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Schuetze","Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_standard_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+		
+	_action = ["Bw_IdZ_F_support_menu","Unterstützung","",{},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+	[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Einsatzersthelfer_B","Einsatzersthelfer B","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Einsatzersthelfer_B.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;	
+
+		_action = ["Bw_IdZ_F_Besatzungsmitglied","Besatzungsmitglied","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Besatzungsmitglied.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Fliegerleitoffizier","Fliegerleitoffizier","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Fliegerleitoffizier.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Funker","Funker","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Funker.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_G28_Schuetze","G28-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_G28_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_G29_Schuetze","G29-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_G29_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_G29_Schuetze_Ghillie","G29-Schütze Ghillie","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_G29_Schuetze_Ghillie.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_G82_Schuetze","G82-Schütze","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_G82_Schuetze.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_G82_Schuetze_Ghillie","G82-Schütze Ghillie","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_G82_Schuetze_Ghillie.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Pilot","Pilot","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Pilot.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Pionier","Pionier","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Pionier.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Spotter","Spotter","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Spotter.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+		_action = ["Bw_IdZ_F_Spotter_Ghillie","Spotter Ghillie","",{_handle = execVM "Loadouts\Bw\Flecktarn\Bw_IdZ_F_Spotter_Ghillie.sqf";},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction; 
+		[Armory, 0, ["ACE_MainActions", "Bw_IdZ_F_menu", "Bw_IdZ_F_support_menu"], _action] call ace_interact_menu_fnc_addActionToObject;
