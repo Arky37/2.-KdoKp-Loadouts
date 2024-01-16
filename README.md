@@ -1,5 +1,5 @@
 # 2.-KdoKp-Loadouts
-Template für Loadouts in Arma 3
+Vorlage für Loadouts in Arma 3
 
 Bw: Flecktarn, Tropentarn, Multitarn
 
