@@ -32,6 +32,8 @@ player addVest "BWA3_Vest_Rifleman_Tropen";
 player addBackpack "BWA3_AssaultPack_Tropen";
 
 comment "Add items to containers";
+player addItemToUniform "ACE_EarPlugs";
+player addItemToUniform "ACRE_PRC343";
 player addItemToUniform "BWA3_G_Combat_black";
 player addItemToUniform "BWA3_G_Combat_orange";
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_fieldDressing";};
